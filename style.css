@@ -1,0 +1,86 @@
+body {
+    background-color: #F4F2F3 ;
+}
+
+article {
+    margin-left: 30%;
+    background-color: #C0A9BD;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+h1 {
+    width:100%; 
+    text-align:left; 
+    margin-bottom: 0px;
+    padding-top: 25px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+div {
+    background-color: #C0A9BD ;
+    float:none;
+    display: inline-block;
+    border-top: 2px solid white;
+    margin: 25px 20px 0px 20px;
+    text-decoration: none;
+    text-align: justify;
+}
+
+figure {
+    float:left;
+    inherits: none;
+}
+
+figcaption {
+    height: 22px;
+    background-color: rgba(0, 0, 0, 0.575);
+    width: 170px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+p {
+    float:right;
+    padding-left: 5px ;
+    padding-top: 5px;
+    margin-right: 20px;
+}
+
+input {
+    color: white;
+    background-color: #344648;
+    border-radius: 2px;
+    box-shadow:rgba(0, 0, 0, 0.575);
+    text-decoration: none;
+    cursor: pointer;
+    margin : 4px 2px;
+    overflow: hidden;
+    float: right;
+    padding-right: 15px;
+}
+
+footer {
+    background-color: #1D3124;
+    font-size: 12px;
+    color: rgba(245, 245, 245, 0.568);
+}
+
+footer div figure {
+    float: left;   
+}
+
+.iu {
+    background-color: #1D3124;
+    border: none;
+}
+
+.iu h3, p {
+    float:none;
+}
+
+.center {
+    text-align: center;
+}
